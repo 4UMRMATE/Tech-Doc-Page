@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+        <div class="wrapper">
+          <header class="header">
+            <div class="burger" onclick="showNavbar()">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </header>
+          <nav id="navbar">
+            <header id="navbar-header">JavaScript Doc</header>
+            <ul class="nav-items">
+              <li class="nav-list">
+                <a class="nav-link" href="#Why_Study_JavaScript?"
+                  >Why Study JavaScript?</a
+                >
+              </li>
+              <li class="nav-list">
+                <a class="nav-link" href="#Commonly_Asked_Questions"
+                  >Commonly Asked Questions</a
+                >
+              </li>
+              <li class="nav-list">
+                <a class="nav-link" href="#JavaScript_Introduction"
+                  >JavaScript Introduction</a
+                >
+              </li>
+              <li class="nav-list">
+                <a class="nav-link" href="#JavaScript_Where_To"
+                  >JavaScript Where To</a
+                >
+              </li>
+              <li class="nav-list">
+                <a class="nav-link" href="#JavaScript_Display_Possibilities"
+                  >JavaScript Display Possibilities</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <main id="main-doc">
+            <section class="main-section" id="Why_Study_JavaScript?">
+              <header class="title">Why Study JavaScript?</header>
+              <p>
+                JavaScript is one of the 3 languages all web developers must
+                learn:
+              </p>
+              <li>HTML to define the content of web pages</li>
+              <li>CSS to specify the layout of web pages</li>
+              <li>JavaScript to program the behavior of web pages</li>
+            </section>
+            <section class="main-section" id="Commonly_Asked_Questions">
+              <header class="title">Commonly Asked Questions</header>
+              <li>How do I get JavaScript?</li>
+              <li>Where can I download JavaScript?</li>
+              <li>Is JavaScript Free?</li>
+
+              <p>You don't have to get or download JavaScript.</p>
+              <p>
+                JavaScript is already running in your browser on your computer,
+                on your tablet, and on your smart-phone.
+              </p>
+              <p>JavaScript is free to use for everyone.</p>
+            </section>
+            <section class="main-section" id="JavaScript_Introduction">
+              <header class="title">JavaScript Introduction</header>
+              <p>
+                One of many JavaScript HTML methods is
+                <code class="code">getElementById()</code>.
+              </p>
+              <p>
+                The example below "finds" an HTML element (with id="demo"), and
+                changes the element content (innerHTML) to "Hello JavaScript":
+              </p>
+              <p>
+                Example:
+                <code class="code">
+                  document.getElementById("demo").innerHTML = "Hello
+                  JavaScript";
+                </code>
+              </p>
+            </section>
+            <section class="main-section" id="JavaScript_Where_To">
+              <header class="title">JavaScript Where To</header>
+              <p>
+                In HTML, JavaScript code is inserted between &lt;script&gt; and
+                &lt;/script&gt; tags.
+              </p>
+              <p>
+                Example:
+                <code class="code">
+                  &lt;script&gt; document.getElementById("demo").innerHTML = "My
+                  First JavaScript"; &lt;/script&gt;
+                </code>
+              </p>
+            </section>
+            <section class="main-section" id="JavaScript_Display_Possibilities">
+              <header class="title">JavaScript Display Possibilities</header>
+              <p>JavaScript can "display" data in different ways:</p>
+              <li>
+                Writing into an HTML element, using
+                <code class="code">innerHTML</code>.
+              </li>
+              <li>
+                Writing into the HTML output using
+                <code class="code">document.write()</code>.
+              </li>
+              <li>
+                Writing into an alert box, using
+                <code class="code">window.alert()</code>.
+              </li>
+              <li>
+                Writing into the browser console, using
+                <code class="code">console.log()</code>.
+              </li>
+            </section>
+          </main>
+        </div>
+
+        <script src="main.js"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      </body>
+    </html>
+  </body>
+</html>
