@@ -16,7 +16,7 @@ function showNavbar() {
 }
 
 navLinks.forEach(function (elem) {
-  elem.addEventListener("click", function () {
-    showNavbar();
+  elem.addEventListener("click", (e) => {
+    if (e.sourceCapabilities.firesTouchEvents) showNavbar();
   });
 });
